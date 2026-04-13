@@ -65,3 +65,24 @@ config/*.yml
 
 # System Files
 .DS_Store
+
+
+# Adicionado pelo FastQA Init
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+code_qa/*
+/fastqa/manual_test/evidence/
+/fastqa/automated_test/web/results/
+/fastqa/automated_test/web/
+/fastqa/scripts/azure-devops/logs/
+
+# FastQA Template Ignores
+.github
+fastqa
+
+# FastQA Template Ignores
+fastqa/agents
