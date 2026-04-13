@@ -18,6 +18,8 @@ import * as utils from '../lib/utils'
 import { challenges } from '../data/datacache'
 import * as security from '../lib/insecurity'
 
+// fastqa-regression-sim: marcador para cenário de convergência multiárea
+
 class User extends Model<
 InferAttributes<User>,
 InferCreationAttributes<User>
