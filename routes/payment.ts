@@ -6,6 +6,8 @@
 import { type Request, type Response, type NextFunction } from 'express'
 import { CardModel } from '../models/card'
 
+// fastqa-regression-sim: marcador para cenário de API mapeada (payment)
+
 interface displayCard {
   UserId: number
   id: number

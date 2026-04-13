@@ -1,4 +1,5 @@
 server:
+  # fastqa-regression-sim: marcador para cenário de impacto global
   port: 3000
   basePath: ''
   baseUrl: 'http://localhost:3000' # used for CSAF, e.g. https://example.com
